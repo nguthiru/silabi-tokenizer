@@ -41,7 +41,7 @@ print("Token IDs:", token_ids)
 ## Tokenizer Details
 
 ### Vocabulary
-The tokenizer uses a predefined syllabic vocabulary, which includes common syllables used in Swahili, as well as special tokens for unknown tokens (<unk>), beginning of sequence (<s>), end of sequence (<s/>), and padding (<pad>). It also includes a fallback mechanism to handle out-of-vocabulary tokens by converting them into their UTF-8 byte representations.
+The tokenizer uses a predefined syllabic vocabulary, which includes common syllables used in Swahili, as well as special tokens for unknown tokens `(<unk>)`, beginning of sequence `(<s>)`, end of sequence `(<s/>)`, and padding `(<pad>)`. It also includes a fallback mechanism to handle out-of-vocabulary tokens by converting them into their UTF-8 byte representations.
 
 ### Special Tokens
 - `<unk>`: Unknown token
