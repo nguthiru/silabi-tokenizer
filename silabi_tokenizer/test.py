@@ -1,4 +1,4 @@
-from silabi_tokenizer import SilabiTokenizer
+from hf_tokenizer import SilabiTokenizer
 
 # Initialize the tokenizer
 tokenizer = SilabiTokenizer()

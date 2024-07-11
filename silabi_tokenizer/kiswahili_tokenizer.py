@@ -1,5 +1,5 @@
-from base_tokenizer import BaseTokenizer
-from silabi_generator import SilabiVocabGenerator
+from .base_tokenizer import BaseTokenizer
+from .silabi_generator import SilabiVocabGenerator
 import os
 import re
 import logging

@@ -1,6 +1,6 @@
 from typing import List
 from transformers import PreTrainedTokenizer
-from kiswahili_tokenizer import KiswahiliTokenizer
+from .kiswahili_tokenizer import KiswahiliTokenizer
 import os
 import json
 
