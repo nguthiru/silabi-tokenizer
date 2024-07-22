@@ -92,7 +92,7 @@ class KiswahiliTokenizer(BaseTokenizer):
         """
         Returns the size of the vocabulary
         """
-        return len(self.vocab)
+        return list(self.vocab.values())[-1] +1
 
     def tokens_to_sentence(self, tokens: List[str]) -> str:
         """
